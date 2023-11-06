@@ -1,0 +1,53 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(/assets/images/Calculadora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.7em;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    padding: 15px 50px;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    border: 3px solid rgb(40, 40, 40);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(20, 20, 20);
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    button {
+        font-size: 0.7em;
+        padding: 10px 40px;
+    }
+}
